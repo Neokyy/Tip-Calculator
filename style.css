@@ -9,5 +9,32 @@ body{
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
+    gap: 10px;
+}
 
+#given-number, #btn, #percentage-select{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.input-button{
+    display: flex;
+    gap: 20px;
+}
+
+.total-tip{
+    display: flex;
+    gap: 20px;
+}
+
+#log, #total-log{
+    margin: 0;
+    border: solid;
+    border-width: thin;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#log:empty, #total-log:empty{
+    display: none;
 }
